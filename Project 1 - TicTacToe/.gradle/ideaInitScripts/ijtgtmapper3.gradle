@@ -1,0 +1,18 @@
+ext.pathMapper = [:]
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/android/lib/android.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/android/lib/android.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/kotlin-stdlib-jdk8.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/kotlin-stdlib-jdk8.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Grails/lib/grails-gradle-tooling.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Grails/lib/grails-gradle-tooling.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Grails/lib/grails-rt.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Grails/lib/grails-rt.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle-ext/lib/gradle-ext.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle-ext/lib/gradle-ext.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/external-system-rt.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/external-system-rt.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-tooling-extension-impl.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-tooling-extension-impl.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/3rd-party-rt.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/3rd-party-rt.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/micronaut/lib/micronaut.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/micronaut/lib/micronaut.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-api-impldep-7.1.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-api-impldep-7.1.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/3rd-party.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/3rd-party.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/android/lib/android-extensions-ide.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/android/lib/android-extensions-ide.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Kotlin/lib/kotlin-plugin.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/Kotlin/lib/kotlin-plugin.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/util.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/lib/util.jar")
+ext.pathMapper.put("C:/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-tooling-extension-api.jar", "/mnt/c/pm/Java Bootcamp 2022/app/ideaIU-2021.3.1.win/plugins/gradle/lib/gradle-tooling-extension-api.jar")
+ext.pathMapper.put("<<target java executable path>>", "/home/majepa1/.sdkman/candidates/java/17.0.2-open/bin/java")
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
