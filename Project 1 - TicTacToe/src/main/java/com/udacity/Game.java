@@ -159,23 +159,23 @@ public class Game {
             if (grid[i][0] != '-' && grid[i][0] == grid[i][1]  && grid[i][0] == grid[i][2] ) {
                 // who wins ?
                 if (grid[i][1] == 'x') {
-                      result = ("X wins ");
+                      result = ("x wins ");
 
                 } else {
-                      result = ("O wins ");
+                      result = ("o wins ");
                 }
             }
         }
 
         //2. column check
-        for (int i = 0 ; j < grid.length; i++) {
+        for (int i = 0 ; i < grid.length; i++) {
             if (grid[0][i] != '-' && grid[0][i] == grid[1][i]  && grid[0][i] == grid[2][i] ) {
                 // who wins ?
                 if (grid[1][i] == 'x') {
-                    result = ("X wins ");
+                    result = ("x wins ");
 
                 } else {
-                    result = ("O wins ");
+                    result = ("o wins ");
                 }
             }
 
@@ -186,9 +186,9 @@ public class Game {
                                        grid[0][2] == grid[1][1] && grid[2][0] == grid[1][1])  ) {
          // who wins ?
             if (grid[1][1] == 'x') {
-                result = ("X wins");
+                result = ("x wins");
             } else {
-                result = ("O wins");
+                result = ("o wins");
             }
         }
         //4.  Tie  - no free spots
